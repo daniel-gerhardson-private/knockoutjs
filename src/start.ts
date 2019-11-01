@@ -1,6 +1,6 @@
 import * as ko from "knockout";
 
-class StartViewModel {
+export class StartViewModel {
     language: KnockoutObservable<string>
     framework: KnockoutObservable<string>
     version: KnockoutObservable<number>
